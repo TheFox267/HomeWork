@@ -4,7 +4,9 @@ from PyQt5 import QtWidgets, uic
 from PyQt5.QtGui import QPixmap
 import wikipedia
 from PIL import Image
+
 lang = 'en'
+
 
 def search_func():
     wikipedia.set_lang(lang)
